@@ -1,0 +1,25 @@
+.DS_Store
+*.log
+*.swp
+*.swo
+*~
+
+# Node / pnpm / bun (por si añadimos ejemplos ejecutables)
+node_modules/
+.pnpm-store/
+bun.lockb
+
+# Editor
+.idea/
+.vscode/
+*.iml
+
+# Local environment
+.env
+.env.local
+*.local
+
+# OS y temporales
+Thumbs.db
+.tmp/
+.cache/
